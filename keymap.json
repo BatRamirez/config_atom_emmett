@@ -2,9 +2,12 @@
   'tab': 'emmet:expand-abbreviation-with-tab'
 'atom-text-editor[data-grammar="text html php"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
+  'atom-text-editor[data-grammar="text html angular"]:not([mini])':
+    'tab': 'emmet:expand-abbreviation-with-tab'
 'atom-workspace atom-text-editor:not([mini])':
   'cmd-s': 'window:save-all',
   'cmd-7': 'editor:toggle-line-comments'
 'atom-text-editor':
   'cmd-s': 'window:save-all',
   'cmd-7': 'editor:toggle-line-comments'
+
